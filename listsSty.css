@@ -1,0 +1,75 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0%;      
+    background: url(t.jpg);    
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+}
+header{
+    background-position: center;
+    background-size: auto;   
+} 
+   
+.main-section{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding: 4rem;
+
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    backdrop-filter: blur(9px);
+    color: #fff;
+    box-shadow: 5px -5px 10px -5px rgba(0, 0, 0, 0.482)
+
+}
+
+h1 {
+    text-align: center;
+}
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search-bar input[type="text"] {
+    padding: 12px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: black;
+}
+.question-link {
+    color: rgb(34, 34, 198);
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    border: 1px solid transparent;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 10px;
+    /* font-weight: lighter; */
+}
+.question-link:hover {
+    border-color: blue;
+}
+
+button {
+    background-color: rgb(10, 131, 179);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(10, 131, 179);
+
+}
+.sub-main-section h1 i{
+    color : rgb(10, 131, 179);
+}
